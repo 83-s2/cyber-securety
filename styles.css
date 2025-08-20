@@ -120,7 +120,7 @@ img{
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 30px;
-
+  color: rgb(83, 202, 231);
 }
 .contant{
   display: flex;
@@ -128,8 +128,18 @@ img{
   flex-direction: row;
   flex-wrap: wrap;
 }
+.carts{
+  width: 100%;
+  
+
+  background: url(ChatGPT\ Image\ 20\ أغسطس\ 2025،\ 06_07_41\ م.png) no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+
+}
 .card{
-  background-color: aliceblue;
+  background-color: rgb(34, 59, 80);
   width: 21.25em;
   box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
   padding: 30px;
@@ -143,6 +153,11 @@ img{
 }
 .info{
   text-align: center;
+  transition: 0.7s ease;
+  
+}
+.info:hover{
+  color: aqua;
 }
 .as{
   text-decoration: none;
